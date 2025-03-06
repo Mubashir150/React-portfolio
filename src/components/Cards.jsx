@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Modal from "./modal";
+import Modal from "./Modal";
 export default function Cards({title,img,description,video}){
    const dialog=useRef()
     function handleClick(){
