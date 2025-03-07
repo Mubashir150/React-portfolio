@@ -464,71 +464,74 @@ p {
 
 @media (max-width:750px){
     header{
-      height: 6vh;
+      height: 9vh;
     }
     nav img{
       height: 80px;
       margin-left: -20px;
-      margin-top: 10px;
+      margin-top: 5px;
     }
     nav ul{
       gap: 5px;
     }
     nav ul li button{
-      margin-top: 20px;
+      margin-top: 18px;
     
-      padding: 7px 12px;
+      padding: 7px 11px;
      
-      font-size: 0.6rem;
-      margin-left: 1vw;
+      font-size: 0.4rem;
+      margin-left: 0.6vw;
     }
     header #nav{
       justify-content: flex-start;
     }
     .contact-container h2{
-      margin-left: -30vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
       font-size: 2rem;
 
     }
     .contact-container p{
       font-size: 1rem;
-      margin-left: 1vw;
-      margin-right:35vw;
+      margin-left: 10vw;
+      margin-right:10vw;
     }
     #icon{
-      margin-left: -34vw;
+      margin-right: 2vw;
+      gap: 20px;
     }
     #icon img{
       height: 50px;
     }
     #home h1{
       font-size: 30px;
-      margin-right: 35vw;
+      margin-right: 6vw;
+      margin-left: 2vw;
     }
     #home h2{
-      font-size: 20px;
-      margin-right: 35vw;
+      font-size: 18px;
+      margin-right: 6vw;
     }
     #home p{
       font-size: 16px;
-      margin-right: 35vw;
+      margin-right: 6vw;
     }
     #home button{
-      margin-right: 35vw;
+      margin-right: 6vw;
     }
     .about-container h2{
-      margin-right: 35vw;
+      margin-right: 4vw;
       font-size: 30px;
     }
     .about-container p{
-      margin-right: 37vw;
+      margin-right: 4vw;
       font-size: 20px;
     }
     .about-buttons{
-      margin-right: 35vw;
+      margin-right: 4vw;
     }
     #projects h2{
-      margin-right: 33vw;
+      margin-right: 4vw;
       font-size: 30px;
       margin-top: 4vh;
     }
@@ -538,7 +541,7 @@ p {
       
     }
     .projects-card{
-      width: 17vh;
+      width: 58vw;
     }
     .projects-card img{
       margin-left: 0.7vw;
@@ -548,38 +551,42 @@ p {
     }
     #dialog-box video{
       width: 250px;
-      margin-left: 12vw;
+      
     }
     #dialog-box{
-      margin-left: -117px;
+      
+      width: 70vw;
+      
     }
     #dialog-box p{
       text-align: center;
+      font-size: 13px;
     }
     #dialog-box h2{
-      margin-right: -20px;
+      margin-right: -10px;
       margin-bottom: 2vh;
     }
     #dialog-box button{
-      margin-left: 24vw;
+      margin-left: 27vw;
     }
     #h2-skills{
-      margin-right: 30vw;
+      margin-right: 5vw;
     }
     .sp{
-      margin-right: 35vw;
+      margin-right: 5vw;
       margin-left: 3vw;
     }
     .skill-card{
       flex-direction: column;
+      margin-left: 5vw;
     }
     .skills-container{
       
-      margin-right: 30vw;
+      margin-right: 7vw;
     }
     .skill-card img{
       margin-top: 2vh;
-      height: 250px;
+      height: 150px;
     }
     #first{
       margin-top: 1vh;
@@ -588,4 +595,3 @@ p {
       height: 350px;
     }
 }
-
